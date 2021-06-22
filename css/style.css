@@ -1,5 +1,11 @@
+*{line-height: 80px;}
+
 header, main, footer{
     border: 2px solid black;
+}
+
+[class^="col-"] {
+    border: 1px dashed lightcoral;
 }
 
 .nav{
@@ -34,6 +40,3 @@ header, main, footer{
     border: 1px solid brown;
 }
 
-[class^="col-"] {
-    border: 1px dashed lightcoral;
-}
