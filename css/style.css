@@ -18,6 +18,10 @@ header, main, footer{
     border: 1px solid purple;
 }
 
+.text{
+    border: 1px solid lightsalmon;
+}
+
 .form{
     border: 1px solid green;
 }
