@@ -1,0 +1,35 @@
+header, main, footer{
+    border: 2px solid black;
+}
+
+.nav{
+    border: 1px solid blue;
+}
+
+.hero{
+    border: 1px solid orange;
+}
+
+.portfolio{
+    border: 1px solid red;;
+}
+
+.about{
+    border: 1px solid purple;
+}
+
+.form{
+    border: 1px solid green;
+}
+
+.info{
+    border: 1px solid goldenrod;
+}
+
+.copyright{
+    border: 1px solid brown;
+}
+
+[class^="col-"] {
+    border: 1px dashed lightcoral;
+}
