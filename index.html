@@ -15,81 +15,181 @@
   </head>
   <body>
     <!-- HEADER -->
-    <header>
+    <header class="bg-dark text-uppercase">
       <div class="container-md">
-        <div class="row nav">
-          <div class="col-6">Start Bootstrap</div>
-          <div class="col-6">Menu</div>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">Navbar</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse d-flex justify-content-end"
+              id="navbarSupportedContent"
+            >
+              <div class="d-flex justify-content-end">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
       </div>
     </header>
     <!-- MAIN -->
     <main>
-      <div class="container-md">
-        <div class="row hero">
-          <div class="col-12">Hero profile</div>
-          <div class="col-12">Hero name</div>
-          <div class="col-12">Hero icon</div>
-          <div class="col-12">Hero text</div>
-        </div>
-        <div class="row portfolio">
-          <div class="col-12">Portfolio</div>
-          <div class="col-12">Portfolio icon</div>
-          <div class="col-12 col-sm-6 col-md-4">Image</div>
-          <div class="col-12 col-sm-6 col-md-4">Image</div>
-          <div class="col-12 col-sm-6 col-md-4">Image</div>
-          <div class="col-12 col-sm-6 col-md-4">Image</div>
-          <div class="col-12 col-sm-6 col-md-4">Image</div>
-          <div class="col-12 col-sm-6 col-md-4">Image</div>
-        </div>
-        <div class="row about">
-          <div class="col-12">About</div>
-          <div class="col-12">About icon</div>
-          <div class="col-12">
-            <div class="row text">
-              <div class="col-6">Text left</div>
-              <div class="col-6">Text right</div>
+      <div class="container-fluid bg-success">
+        <div class="container-md">
+          <div class="row hero text-uppercase text-light py-5">
+            <div
+              class="
+                col-12
+                d-flex
+                justify-content-center
+                align-items-center
+                flex-column
+              "
+            >
+              <div><img src="https://picsum.photos/id/237/200/300" alt=""></div>
+              <div class="h1">Start Bootstrap</div>
+              <div class="h5">Graphic Artista - Web designer - Illustrator</div>
             </div>
           </div>
-          <div class="col-12">About button</div>
         </div>
-        <div class="row form">
-          <div class="col-12">Contact</div>
-          <div class="col-12">Name</div>
-          <div class="col-12">Email Adress</div>
-          <div class="col-12">Phone</div>
-          <div class="col-12">Message</div>
-          <div class="col-12">Send button</div>
+      </div>
+      <div class="container-md">
+      <div class="row portfolio py-5">
+        <div class="col-12 text-center">Portfolio</div>
+        <div class="col-12 text-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg></div>
+        <div class="row g-2">
+          <div class="col-12 col-sm-6 col-md-4"><img src="https://picsum.photos/id/237/200/300" alt=""></div>
+          <div class="col-12 col-sm-6 col-md-4"><img src="https://picsum.photos/id/237/200/300" alt=""></div>
+          <div class="col-12 col-sm-6 col-md-4"><img src="https://picsum.photos/id/237/200/300" alt=""></div>
+          <div class="col-12 col-sm-6 col-md-4"><img src="https://picsum.photos/id/237/200/300" alt=""></div>
+          <div class="col-12 col-sm-6 col-md-4"><img src="https://picsum.photos/id/237/200/300" alt=""></div>
+          <div class="col-12 col-sm-6 col-md-4"><img src="https://picsum.photos/id/237/200/300" alt=""></div>
         </div>
+      </div>
+    </div>
+      <div class="container-fluid bg-success">
+        <div class="container-md py-5">
+          <div class="row text-light">
+            <div class="col-12 text-uppercase text-center h2">About</div>
+            <div class="col-12 text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg></div>
+            <div class="col-12">
+              <div class="row">
+                <div class="col-6 text-center">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Officiis necessitatibus odio, aspernatur atque error aliquam
+                  optio sed corporis maiores minima placeat consequatur
+                  quibusdam rem aperiam repellendus, sit esse aut a!
+                </div>
+                <div class="col-6 text-center">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Perferendis incidunt iusto itaque nemo aspernatur numquam
+                  nesciunt eius illo, aliquam error neque ut soluta assumenda,
+                  harum voluptas enim beatae optio doloribus.
+                </div>
+              </div>
+            </div>
+            <div class="col-12 text-center">About button</div>
+          </div>
+        </div>
+      </div>
+      <div class="container-md my-5">
+        <div class="col-12 text-uppercase text-center h2">Contact me</div>
+        <div class="col-12 text-uppercase text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg></div>
+        <form>
+          <div class="form-group">
+            <label for="Name">Name</label>
+            <input type="text" class="form-control border-0 border-bottom" id="Name" aria-describedby="emailHelp">
+          </div>
+          <div class="form-group">
+            <label for="Email">Email address</label>
+            <input type="email" class="form-control border-0 border-bottom" id="Email" aria-describedby="emailHelp" >
+          </div>
+          <div class="form-group">
+            <label for="Number">Phone number</label>
+            <input type="tel" class="form-control border-0 border-bottom" id="Number">
+          </div>
+        
+          <div class="form-group">
+            <label for="Message">Message</label>
+            <input type="text" class="form-control border-0 border-bottom" id="Message">
+          </div>
+
+          <button type="submit" class="btn btn-success border-0">send</button>
+        </form>
       </div>
     </main>
     <!-- FOOTER -->
-    <footer>
+    <footer class="bg-secondary text-light">
       <div class="container-md">
         <div class="row info">
           <div class="col-12 col-sm-4">
             <div class="row">
-              <div class="col-12">Location</div>
-              <div class="col-12">Adress</div>
+              <div class="col-12 text-uppercase text-center">Location</div>
+              <div class="col-12 text-center">
+                2215 John Daniel Drive Clark, MO 54243
+              </div>
             </div>
           </div>
           <div class="col-12 col-sm-4">
             <div class="row">
-              <div class="col-12">Around the web</div>
-              <div class="col-12">Social icon</div>
+              <div class="col-12 text-uppercase text-center">
+                Around the web
+              </div>
+              <div class="col-12 text-center">Social icon</div>
             </div>
           </div>
           <div class="col-12 col-sm-4">
             <div class="row">
-              <div class="col-12">About freelancer</div>
-              <div class="col-12">Info</div>
+              <div class="col-12 text-uppercase text-center">
+                About freelancer
+              </div>
+              <div class="col-12 text-center">
+                Freelance is a free O use; open source Bootstrap theme created
+                by Start Bootstrap.
+              </div>
             </div>
           </div>
         </div>
+      </div>
+      <div class="container-fluid bg-dark">
         <div class="row copyright">
-          <div class="col-12">Copyright reserved</div>
+          <div class="col-12 text-center text-uppercase text-light">
+            Copyright reserved
+          </div>
         </div>
       </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
